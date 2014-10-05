@@ -1,0 +1,60 @@
+﻿        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            margin: 0 0 5px 0;
+            border-bottom: 1px solid #444;
+            padding: 0 0 5px 0;
+            text-align: center;
+        }
+
+        .shadow {
+            -moz-box-shadow: 0 0 5px #888;
+            -webkit-box-shadow: 0 0 5px #888;
+            box-shadow: 0 0 5px #888;
+        }
+
+        #map {
+            margin: 0;
+            padding: 0;
+        }
+
+        #feedback {
+            background: #fff;
+            color: #000;
+            position: absolute;
+            font-family: arial;
+            height: auto;
+            right: 20px;
+            margin: 5px;
+            padding: 10px;
+            top: 20px;
+            width: 300px;
+            z-index: 40;
+        }
+
+            #feedback a {
+                border-bottom: 1px solid #888;
+                color: #444;
+                text-decoration: none;
+            }
+
+                #feedback a:hover, #feedback a:active, #feedback a:visited {
+                    border: none;
+                    color: #444;
+                    text-decoration: none;
+                }
+
+        #note {
+            font-size: 80%;
+            font-weight: 700;
+            padding: 0 0 10px 0;
+        }
+
+        #info {
+            padding: 10px 0 0 0;
+        }
